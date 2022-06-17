@@ -54,6 +54,7 @@ namespace XamarinRealmDelayedPropertyChange
         {
             Value = "1";
             //await Task.Yield();
+            //RealmObj.Realm.Refresh();
             Value = "2";
         }
 
